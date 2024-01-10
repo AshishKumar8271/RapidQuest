@@ -16,14 +16,14 @@ const Chart = () => {
                 labels:'',
                 data: ChartData.map((ele)=> ele.employer),
                 backgroundColor:"#1e3a8a",
-                barThickness: 24,
+                barThickness: 20,
                 color : '#666',
             },
             {
                 labels:'',
                 data: ChartData.map((ele)=> ele.employee),
                 backgroundColor:"#2563eb",
-                barThickness: 24,
+                barThickness: 20,
                 color : '#666',
 
             },
@@ -31,7 +31,7 @@ const Chart = () => {
                 labels:'',
                 data: ChartData.map((ele)=> ele.Interest),
                 backgroundColor:"#3b82f6",
-                barThickness: 24,
+                barThickness: 20,
                 color : '#666',
 
 
