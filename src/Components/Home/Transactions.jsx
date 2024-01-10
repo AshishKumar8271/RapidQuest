@@ -11,7 +11,7 @@ const Transactions = () => {
                     return (
                         <div className='p-3 shadow-md max-w-96' key={id}>
                             <p className='text-sm text-gray-500'>{date}</p>
-                            <h6 className='font-semibold tracking-normal font-sans text-gray-900'>Withdrawal Transfer to Bank-{bank}</h6>
+                            <h6 className='font-semibold tracking-normal text-sm text-gray-900'>Withdrawal Transfer to Bank-{bank}</h6>
                         </div>
                     )
                 })
