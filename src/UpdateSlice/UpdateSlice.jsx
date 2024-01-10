@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    sidepage: true,
+    sidepage: false,
 };
 
 const UpdateSlice = createSlice({
