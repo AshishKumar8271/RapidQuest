@@ -8,9 +8,36 @@
     font-family: 'Roboto Slab', serif;
     -webkit-tap-highlight-color: transparent;
 }
+
+h6,
 p,
 span,
 input,
-select {
+select,
+label {
     font-family: 'Roboto', sans-serif;
 }
+
+.range-slider{
+	margin-right: 16px;
+	appearance: none;
+	outline: none;
+	width: 100%;
+	max-width: 330px;
+	height: 3px;
+	border-radius: 5px;
+	background-color: #ccc;
+}
+
+.range-slide::-webkit-slider-runnable-track{
+	background-color: white;	
+}
+.range-slider::-webkit-slider-thumb {
+		background: #fafafa;
+		appearance: none;
+	  	box-shadow: 0px 0px 8px -1px gray;
+		width: 17px;
+		height: 17px;
+		border-radius: 50%;
+	}
+

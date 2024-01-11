@@ -3,7 +3,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 
 const ComparePeers = () => {
     return (
-        <div className=''>
+        <div className='mt-0'>
             <h2 className='text-lg font-semibold text-gray-900'>How do I compare to my peers?</h2>
             <p className='text-[13px] text-neutral-400'>These numbers represents current goal achievement.</p>
 

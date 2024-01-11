@@ -8,6 +8,7 @@ import UpdatePage from "./Pages/UpdatePage.jsx";
 const App = () => {
   return (
     <>
+    
       <div className='h-full w-full bg-white rounded-3xl shadow-xl'>
         <Navbar />
         <NotificationBell />
@@ -15,7 +16,6 @@ const App = () => {
         <div className='p-6 pb-24'>
           <Homepage/>
           <GraphPage/>
-          
         </div>
       </div>
     </>
